@@ -24,3 +24,8 @@ Cuando consideres que el problema está resuelto, debes subirlo a un repositorio
 
 
 **Happy hacking!**
+
+### Notas del desarrollo
+Se instaló Laravel Passport para el control del uso de la API desde el front, por lo tanto hay que correr los siguientes comandos luego de instalar las dependencias
+1. php artisan migrate
+2. php artisan passport:install
